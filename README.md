@@ -1,11 +1,25 @@
 # BizCardX: Extracting Business Card Data with OCR
 
+## Overview
+BizCardX is a powerful yet user-friendly tool designed to streamline the process of managing business card information. Leveraging Optical Character Recognition (OCR) and a sleek Streamlit graphical user interface (GUI), the application allows users to effortlessly upload business card images and extract key details such as company name, cardholder name, designation, contact information, and geographical details.
+
+## Key Features
+- **EasyOCR Integration:** Utilizing the EasyOCR library for efficient and accurate text extraction from business card images.
+- **Interactive Streamlit GUI:** A well-designed Streamlit interface for seamless image upload, data extraction, and management.
+- **MySQL Database Integration:** Storing extracted information and corresponding business card images in a MySQL database for easy retrieval and management.
+
+## How It Works
+1. **Upload Business Card Image:** Users can upload a business card image through the intuitive Streamlit interface.
+2. **Extract Information:** The application employs EasyOCR to extract relevant information from the uploaded image.
+3. **Database Integration:** Extracted data is stored in a MySQL database, allowing users to manage and retrieve information efficiently.
+4. **User-Friendly Management:** Users can add, read, update, and delete entries through the GUI, providing a comprehensive solution for business card data management.
+
 ## Problem Statement
 Develop a Streamlit application that allows users to upload a business card image and extract relevant information using EasyOCR. Extracted information includes company name, cardholder name, designation, mobile number, email address, website URL, area, city, state, and pin code. The application should display information in the GUI and allow users to save data, read data, update data, and delete data in a database along with the business card image.
 
 ## Technologies Used
 - **OCR**
-- **Streamlit GUI**
+- **Streamlit**
 - **MySQL**
 - **Data Extraction**
 
@@ -15,7 +29,7 @@ Develop a Streamlit application that allows users to upload a business card imag
 - **GUI development (Streamlit)**
 - **Database management (MySQL)**
 
-## Approach:
+## Approach
 Install Required Packages:
   Install Python, Streamlit, EasyOCR, and a database management system (MySQL).
 
