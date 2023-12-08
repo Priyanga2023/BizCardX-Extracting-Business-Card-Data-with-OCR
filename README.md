@@ -36,11 +36,13 @@ Install Required Packages:
 ### Design User Interface:
 
 1.Create an intuitive Streamlit GUI for uploading business card images.
+
 2.Utilize widgets like file uploader, buttons, and text boxes for an interactive interface.
 
 ### Implement Image Processing and OCR:
 
 1.Use EasyOCR for extracting information from uploaded images.
+
 2.Apply image processing techniques for enhancing image quality.
 
 ### Display Extracted Information:
@@ -50,11 +52,13 @@ Present extracted information in an organized manner using Streamlit widgets (ta
 ### Implement Database Integration:
 
 1.Use MySQL to store extracted information and business card images.
+
 2.Use SQL queries for creating tables, inserting, updating, and deleting data.
 
 ### Test the Application:
 
 1.Thoroughly test the application to ensure functionality.
+
 2.Run the application locally using streamlit run app.py in the terminal.
 
 ## Results:
